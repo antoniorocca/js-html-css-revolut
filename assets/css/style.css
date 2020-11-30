@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+}
+#parte-sinistra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    margin-left: 100px;
+    width: 100%;
+}
+#img-container  {
+    height: 80px;
+    width: 200px;
+}
+img {
+    max-width: 100%;
+}
+#tipo-account {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+#personale {
+    font-size: 15px;
+    padding-right: 30px;
+}
+#business {
+    font-size: 15px;
+    color: grey;
+}
+#parte-destra {
+    height: 80px;
+    width: 100%;
+    margin-right: 100px;
+}
+ul {
+    list-style-type: none;
+    margin-top: 20px;  
+}
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+li a {
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+}
+li select {
+    border-style: none;
+    color: grey;
+    font-size: 12px;
+}
+li button {
+    width: 120px;
+    padding: 10px; 
+    background-color: palevioletred;
+    color: white;
+    border-style: none;
+    border-radius: 40px;
+}
+#menu-nascosto1 {
+    width: 110px;
+    height: 200px;
+    line-height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    right: 350px;
+    display: none;
+}
+#menu-nascosto2 {
+    width: 120px;
+    height: 180px;
+    line-height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    right: 600px;
+    display: none;
+}
+#menu-nascosto3 {
+    width: 130px;
+    height: 140px;
+    line-height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    right: 500px;
+    display: none;
+}
+#menu-nascosto4 {
+    width: 130px;
+    height: 200px;
+    line-height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    right: 250px;
+    display: none;
+}
+#menu-3col {
+    width: 600px;
+    height: 220px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    display: none;
+}
+#menu-3col:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#menu-nascosto5 {
+    float: left;
+    width: 200px;
+    height: 210px;
+    line-height: 2rem;
+    border-radius: 10px;
+}
+#menu-nascosto6 {
+    float: left;
+    width: 180px;
+    height: 200px;
+    line-height: 2rem;
+    border-radius: 10px;
+}
+#menu-nascosto7 {
+    float: left;
+    width: 180px;
+    height: 200px;
+    line-height: 2rem;
+    border-radius: 10px;
+}
+#ul-nascosta1, #ul-nascosta2, #ul-nascosta3, #ul-nascosta4, #ul-nascosta5, #ul-nascosta6, #ul-nascosta7 {
+    font-size: 12px;
+    list-style-type: none;
+}
+#ul-nascosta1 li {
+    padding-left: 10px;
+    color: grey;
+}
+#ul-nascosta2 li {
+    padding-left: 10px;
+    color: grey;
+}
+#ul-nascosta3 li {
+    padding-left: 10px;
+    color: grey;
+}
+#ul-nascosta4 li {
+    padding-left: 10px;
+    color: grey;
+}
+#ul-nascosta5 li {
+    padding-left: 10px;
+    color: grey;
+    display: block;
+}
+#ul-nascosta6 li {
+    padding-left: 10px;
+    color: grey;
+    display: block;
+}
+#ul-nascosta7 li {
+    padding-left: 10px;
+    color: grey;
+    display: block;
+}
+
